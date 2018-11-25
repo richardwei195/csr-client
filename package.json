@@ -1,0 +1,25 @@
+{
+  "name": "cross-server-request",
+  "version": "1.0.0",
+  "description": "A request tool for Microservices framework",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardwei195/cross-server-request.git"
+  },
+  "keywords": [
+    "request",
+    "web",
+    "server",
+    "nodejs"
+  ],
+  "author": "richardwei1995@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardwei195/cross-server-request/issues"
+  },
+  "homepage": "https://github.com/richardwei195/cross-server-request#readme"
+}
