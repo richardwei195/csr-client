@@ -1,14 +1,16 @@
 {
-  "name": "cross-server-request",
+  "name": "csr-client",
   "version": "1.0.0",
   "description": "A request tool for Microservices framework",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "build": "tsc",
+    "test": "NODE_ENV=test mocha",
+    "lint": "tslint -p tsconfig.json -t stylish 'src/**/*.ts' 'test/**/*.ts'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/richardwei195/cross-server-request.git"
+    "url": "git+https://github.com/richardwei195/csr-client.git"
   },
   "keywords": [
     "request",
@@ -19,7 +21,19 @@
   "author": "richardwei1995@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/richardwei195/cross-server-request/issues"
+    "url": "https://github.com/richardwei195/csr-client/issues"
   },
-  "homepage": "https://github.com/richardwei195/cross-server-request#readme"
+  "homepage": "https://github.com/richardwei195/csr-client#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/request": "^2.48.1",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  }
 }
