@@ -1,6 +1,6 @@
 {
   "name": "csr-client",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A request tool for Microservices framework",
   "main": "index.js",
   "scripts": {
